@@ -1,0 +1,16 @@
+PODS:
+  - LTCommentHelper (0.0.2)
+
+DEPENDENCIES:
+  - LTCommentHelper (~> 0.0.2)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - LTCommentHelper
+
+SPEC CHECKSUMS:
+  LTCommentHelper: 8e389ee623549f2e5439c7aee43ff7c5b77b6db0
+
+PODFILE CHECKSUM: 5bf73d7fdc51744cc099e16207a1fdc7704af8d5
+
+COCOAPODS: 1.5.3

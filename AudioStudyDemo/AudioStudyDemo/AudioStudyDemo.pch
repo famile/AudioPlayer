@@ -1,0 +1,24 @@
+//
+//  AudioStudyDemo.pch
+//  AudioStudyDemo
+//
+//  Created by 李涛 on 2018/10/29.
+//  Copyright © 2018年 Tao_Lee. All rights reserved.
+//
+
+#ifndef AudioStudyDemo_pch
+#define AudioStudyDemo_pch
+
+//防止循环引用
+#define WS(weakSelf)  __weak __typeof(&*self)weakSelf = self;
+
+// 颜色值RGB
+#define RGBA(r,g,b,a)                       [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:a]
+
+#define ZFPlayerSrcName(file)               [@"ZFPlayer.bundle" stringByAppendingPathComponent:file]
+
+#define ZFPlayerFrameworkSrcName(file)      [@"Frameworks/ZFPlayer.framework/ZFPlayer.bundle" stringByAppendingPathComponent:file]
+
+#define ZFPlayerImage(file)                 [UIImage imageNamed:ZFPlayerSrcName(file)] ? :[UIImage imageNamed:ZFPlayerFrameworkSrcName(file)]
+
+#endif /* AudioStudyDemo_pch */
